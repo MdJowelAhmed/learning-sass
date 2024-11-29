@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$header-bgcolor:#F0F1EE;
+$main-bgcolor: #FFFFFFB2;
+$footer-bgcolor: #9998E133;
+
+header{
+    background-color: $header-bgcolor;
+}
+nav{
+    margin-top: 14px;
+    ul{
+        list-style-type: none;
+        li{
+            display: inline-block;
+            margin: 0 15px;
+            a{
+                text-decoration: none;
+                transition: 0.9s;
+                border-radius: 5px;
+                padding: 5px;
+            }
+            a:hover{
+                background: #000;
+                color: #fff;
+            }
+        }
+    }
+}
+
+main{
+    background-color: $main-bgcolor;
+}
+footer{
+    background-color: $footer-bgcolor;
+}
